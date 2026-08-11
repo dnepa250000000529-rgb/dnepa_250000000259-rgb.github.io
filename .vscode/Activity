@@ -1,0 +1,77 @@
+/* ==========================================
+   Task 1 & 2: Navigation Section
+   ========================================== */
+
+/* Task 1: Set width to 180px and center horizontally */
+nav img {
+  width: 180px;
+  margin: 0 auto;
+}
+
+/* Task 2: Set vertical margins to 10px and horizontal margins to 0 */
+nav span {
+  margin: 10px 0;
+}
+
+
+/* ==========================================
+   Tasks 3 & 4: Main Content Container
+   ========================================== */
+
+/* Task 3 & 4: Set height, margins, and make content scrollable */
+.content {
+  height: 500px;
+  margin: 10px auto;
+  overflow: scroll; /* Makes the container scrollable when viewport shrinks */
+}
+
+/* Task 3: Center body elements inside .content horizontally with no vertical margin */
+.content .body {
+  margin: 0 auto;
+}
+
+
+/* ==========================================
+   Task 5: Header Section
+   ========================================== */
+
+/* Task 5: Set height of .header */
+.header {
+  height: 320px;
+}
+
+/* Task 5: Style h1 inside .header */
+.header h1 {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+
+/* ==========================================
+   Task 6: Order Button
+   ========================================== */
+
+/* Task 6: Style the 'ORDER NOW' button */
+.button {
+  width: 200px;
+  padding: 20px;
+  margin: 40px auto;
+  border: 1px solid blue;
+}
+
+
+/* ==========================================
+   Task 7: Nutrition Facts Section
+   ========================================== */
+
+/* Task 7: Set padding for the nutrition container */
+ul.nutrition {
+  padding: 20px;
+}
+
+/* Task 7: Style list items within ul.nutrition */
+ul.nutrition li {
+  width: 200px;
+  padding: 10px 20px;
+  margin-bottom: 3px;
+}
